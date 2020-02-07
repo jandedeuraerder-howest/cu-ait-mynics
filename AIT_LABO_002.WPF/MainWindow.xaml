@@ -1,0 +1,30 @@
+﻿<Window x:Class="AIT_LABO_002.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AIT_LABO_002.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1149.027">
+    <Grid>
+        <ListBox x:Name="lstNics" HorizontalAlignment="Left" Height="391" Margin="23,10,0,0" VerticalAlignment="Top" Width="231" SelectionChanged="LstNics_SelectionChanged"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="274,17,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDescription" Content="-" HorizontalAlignment="Left" Margin="424,17,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="274,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblID" Content="-" HorizontalAlignment="Left" Margin="424,37,0,0" VerticalAlignment="Top"/>
+        <Label Content="NetworkInterfaceType" HorizontalAlignment="Left" Margin="274,57,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNetworkInterfaceType" Content="-" HorizontalAlignment="Left" Margin="424,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="OperationalStatus" HorizontalAlignment="Left" Margin="274,77,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblOperationalStatus" Content="-" HorizontalAlignment="Left" Margin="424,77,0,0" VerticalAlignment="Top"/>
+        <Label Content="Speed" HorizontalAlignment="Left" Margin="274,97,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSpeed" Content="-" HorizontalAlignment="Left" Margin="424,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="MAC" HorizontalAlignment="Left" Margin="274,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMac" Content="-" HorizontalAlignment="Left" Margin="424,137,0,0" VerticalAlignment="Top"/>
+
+        <Label Content="IP4" HorizontalAlignment="Left" Margin="274,177,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIP4" Content="-" HorizontalAlignment="Left" Margin="324,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.394,0.509"/>
+        <Label Content="IP6" HorizontalAlignment="Left" Margin="574,177,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIP6" Content="-" HorizontalAlignment="Left" Margin="624,177,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
